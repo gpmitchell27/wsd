@@ -18,7 +18,7 @@ body {
 	margin:0 auto;
 }
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
 	margin:0;
 }
 
@@ -85,5 +85,5 @@ section h2 {
 }
 
 #intro_paragraph {
-	margin:20px;
+	margin-top:20px;
 }

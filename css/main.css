@@ -67,6 +67,7 @@ h1, h2, h3, h4 {
 
 section {
 	overflow:hidden;
+	background:#081220;
 }
 section p img {
 	float:right;

@@ -64,3 +64,10 @@ h1, h2, h3, h4 {
 	padding-left:10px;
 	border-bottom:1px solid #fff;
 }
+
+section {
+	overflow:hidden;
+}
+section img {
+	float:right;
+}

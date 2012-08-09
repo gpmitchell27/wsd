@@ -38,7 +38,6 @@ h1, h2, h3, h4 {
 #content_wrapper header nav li {
 	width:200px;
 	float:right;
-	margin-left:5px;
 	text-align:center;
 }
 
@@ -46,5 +45,7 @@ h1, h2, h3, h4 {
 	text-decoration:none;
 	display:block;
 	height:50px;
-	line-height:30px;
+	line-height:50px;
+	text-align:center;
+	color:#fff;
 }

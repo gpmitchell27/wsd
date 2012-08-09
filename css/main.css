@@ -81,6 +81,6 @@ section img {
 section h2 {
 	float:left;
 	width:320px;
-	padding:0;
+	padding-top:10px;
 	margin:0;
 }

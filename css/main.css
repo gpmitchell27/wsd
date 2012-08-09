@@ -68,6 +68,7 @@ h1, h3, h4 {
 	line-height:50px;
 	padding-left:10px;
 	border-bottom:1px solid #31578a;
+	font-family:"halo";
 }
 
 /*---------Content Elements------------------------*/
@@ -89,7 +90,6 @@ section h2 {
 	float:left;
 	width:320px;
 	padding-top:20px;
-	font-family:halo;
 }
 
 #intro_paragraph {

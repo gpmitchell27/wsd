@@ -38,6 +38,7 @@ h1, h2, h3, h4 {
 	width:150px;
 	display:block;
 	text-align:center;
+	float:right;
 }
 
 #content_wrapper header nav li a {

@@ -80,6 +80,7 @@ section img {
 
 section h2 {
 	background:silver;
+	float:left;
 	width:320px;
 	padding:0;
 	margin:0;

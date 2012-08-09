@@ -91,6 +91,8 @@ section h2 {
 	float:left;
 	width:320px;
 	padding-top:20px;
+	font-family:halo, sans-serif;
+	font-size:30px;
 }
 
 #intro_paragraph {

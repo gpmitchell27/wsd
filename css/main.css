@@ -24,7 +24,7 @@ h1, h3, h4 {
 
 @font-face {
 	font-family: halo;
-	src: url('../fonts/halo.ttf');
+	src: url('https://github.com/gpmitchell27/wsd/raw/gh-pages/fonts/halo.ttf');
 }
 
 /* Navigation Elements ------------------------------------------------*/

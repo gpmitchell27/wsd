@@ -39,10 +39,13 @@ h1, h2, h3, h4 {
 	display:block;
 	text-align:center;
 	float:right;
+	height:30px;
+	
 }
 
 #content_wrapper header nav li a {
 	text-decoration:none;
+	color:#fff;
 }
 
 

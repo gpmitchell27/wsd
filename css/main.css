@@ -81,8 +81,8 @@ section img {
 section h2 {
 	float:left;
 	width:320px;
+	pading-top:20px;
 	margin-top:20px;
-	margin:0;
 }
 
 section p {

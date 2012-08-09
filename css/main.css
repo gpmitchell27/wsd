@@ -55,7 +55,7 @@ h1, h2, h3, h4 {
 	background:#333;
 }
 
-header nav h1 {
+#content_wrapper header nav h1 {
 	color:#fff;
 	width:260px;
 }

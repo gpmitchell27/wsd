@@ -74,4 +74,5 @@ section {
 
 section p img {
 	float:right;
+	margin:0;
 }

@@ -4,7 +4,7 @@ header bg #081220 Dark Blue
 
 --------------------------------------------------------------------------------*/
 
-/* Global Style Elements ------------------------------------------------*/
+/* Global Elements ------------------------------------------------*/
 
 body {
 	font:14px/1.5 "Helvetica Neue" , Arial, Helvetica, sans-serif;
@@ -20,6 +20,11 @@ body {
 
 h1, h3, h4 {
 	margin:0;
+}
+
+@font-face {
+	font-family: halo;
+	src: url('../fonts/halo.ttf');
 }
 
 /* Navigation Elements ------------------------------------------------*/
@@ -65,6 +70,8 @@ h1, h3, h4 {
 	border-bottom:1px solid #31578a;
 }
 
+/*---------Content Elements------------------------*/
+
 section {
 	overflow:hidden;
 	background:#081220;
@@ -82,6 +89,7 @@ section h2 {
 	float:left;
 	width:320px;
 	padding-top:20px;
+	font-family:halo;
 }
 
 #intro_paragraph {

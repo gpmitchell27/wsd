@@ -24,7 +24,7 @@ h1, h3, h4 {
 
 @font-face {
 	font-family: halo;
-	src: url('https://github.com/gpmitchell27/wsd/blob/gh-pages/fonts/Halo.ttf');
+	src: url('../fonts/Halo.ttf');
 }
 
 /* Navigation Elements ------------------------------------------------*/
@@ -62,13 +62,13 @@ h1, h3, h4 {
 }
 
 #content_wrapper h1 {
-	color:#ff0000;
+	color:#fff;
 	width:360px;
 	background:#000;
 	line-height:50px;
 	padding-left:10px;
 	border-bottom:1px solid #31578a;
-	font-family:halo;
+	font-family:halo, sans-serif;
 }
 
 /*---------Content Elements------------------------*/

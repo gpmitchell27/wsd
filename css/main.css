@@ -36,7 +36,7 @@ h1, h2, h3, h4 {
 }
 
 #content_wrapper header nav li {
-	width:150px;
+	width:200px;
 	background:silver;	
 	float:left;
 }

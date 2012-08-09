@@ -67,7 +67,7 @@ h1, h2, h3, h4 {
 
 section {
 	overflow:hidden;
-	background:#f8f8f8;
+	background:#081220;
 	color:#fff;
 	padding-left:10px;
 }
@@ -79,7 +79,6 @@ section img {
 }
 
 section h2 {
-	background:silver;
 	float:left;
 	width:320px;
 	padding:0;

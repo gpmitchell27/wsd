@@ -76,7 +76,7 @@ h1, h3, h4 {
 
 section {
 	overflow:hidden;
-	background:url('images/sidebar_bg.gif') repeat-x;
+	background:url('../images/sidebar_bg.gif') repeat-x;
 	color:#fff;
 	padding-left:10px;
 }

@@ -76,3 +76,7 @@ section p img {
 	float:right;
 	margin:0;
 }
+
+section h2 {
+	width:360px;
+}

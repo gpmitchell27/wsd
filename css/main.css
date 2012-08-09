@@ -43,4 +43,7 @@ h1, h2, h3, h4 {
 	text-align:center;
 }
 
-
+#content_wrapper header nav li a {
+	text-decoration:none;
+	background:white;
+}

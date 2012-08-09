@@ -68,7 +68,8 @@ h1, h3, h4 {
 	line-height:50px;
 	padding-left:10px;
 	border-bottom:1px solid #31578a;
-	font:30px halo, sans-serif;
+	font-family:halo, sans-serif;
+	font-size:25px;
 }
 
 /*---------Content Elements------------------------*/

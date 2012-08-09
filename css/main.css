@@ -16,6 +16,9 @@ body {
 #content_wrapper {
 	width:960px;
 	margin:0 auto;
+	background-color:#081220;
+	padding-left:10px;
+	color:#fff;
 }
 
 h1, h3, h4 {
@@ -25,6 +28,14 @@ h1, h3, h4 {
 @font-face {
 	font-family: halo;
 	src: url('../fonts/Halo.ttf');
+}
+
+a:link, a:visited {
+	color:#ffcc00;
+}
+
+.red {
+	color:#ff0000;
 }
 
 /* Navigation Elements ------------------------------------------------*/
@@ -58,8 +69,11 @@ h1, h3, h4 {
 }
 
 #content_wrapper header nav li a:hover {
-	background:#081220;
+	background:#31578a;
+	color:#000;
 }
+
+/*---------Content Elements------------------------*/
 
 #content_wrapper h1 {
 	color:#fff;
@@ -72,8 +86,6 @@ h1, h3, h4 {
 	font-size:35px;
 }
 
-/*---------Content Elements------------------------*/
-
 section {
 	overflow:hidden;
 	background:#081220;
@@ -82,22 +94,106 @@ section {
 }
 
 section img {
-	float:right;
-	margin:0;
+	float:left;
+	margin-bottom:30px;
 	padding:0;
 }
 
 section h2 {
-	float:left;
-	padding-top:20px;
 	font-family:halo, sans-serif;
-	font-size:20px;
+	font-size:23px;
+	margin-top:20px;
+	padding-top:10px;
 }
 
 #intro_paragraph {
-	margin-top:20px;
+	margin:20px 10px;
 }
 
 #intro_paragraph a {
+	color:#ffcc00;
+	text-decoration:none;
+}
+
+.headers {
+	background:#000;
+	margin:0;
 	color:#fff;
+	font:23px halo, arial, sans-serif;
+	line-height:50px;
+}
+
+.headers p {
+	padding-left:10px;
+	margin-left:10px;
+}
+/* -------- Gallery Styles -------------------------*/
+
+aside {
+	overflow:hidden;
+	background:#081220 url(../images/halo-4-trailer.jpg) no-repeat;
+	background-position:bottom right;
+	color:#fff;
+}
+
+aside ul {
+	width:380px;
+	list-style-type:none;
+	padding-left:10px;
+	margin:0;
+}
+
+aside li {
+	width:110px;
+	height:85px;
+	margin:0px;
+	float:left;
+}
+
+aside p  {
+	clear:left;
+	width:500px;
+	padding-left:10px;
+}
+
+aside img {
+	border:1px solid #fff;
+	box-shadow:2px 2px 2px #111;
+}
+
+/* -------- Videos Styles -------------------------*/
+
+#videos {
+	background:#081220 url('../images/covers.jpg') no-repeat;
+	background-position:bottom right;
+}
+
+#videos p {
+	width:500px;
+}
+
+#videos ul {
+	width:500px;
+	list-style-type:none;
+	padding:0;
+}
+
+
+/* -------- Links Styles -------------------------*/
+
+#links {
+	background:#081220 url('../images/halo3.jpg') no-repeat;
+	background-position:bottom right;
+}
+
+#links p {
+	width:500px;
+	margin:0;
+	padding-left:10px;
+}
+
+#links ul {
+	width:500px;
+	list-style-type:none;
+	padding:0;
 }

@@ -189,12 +189,7 @@ aside img {
 	background:#081220;
 }
 
-#videos p {
-	width:420px;
-}
-
 #videos ul {
-	width:500px;
 	list-style-type:none;
 	padding:0;
 }
@@ -208,12 +203,10 @@ aside img {
 }
 
 #links p {
-	width:500px;
 	margin:0;
 }
 
 #links ul {
-	width:500px;
 	list-style-type:none;
 	padding:0;
 }

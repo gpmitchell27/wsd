@@ -7,7 +7,7 @@ header bg #081220 Dark Blue
 /* Global Elements ------------------------------------------------*/
 
 body {
-	font:100%/1.5 "Helvetica Neue" , Arial, Helvetica, sans-serif; /* 16px */
+	font:87.5%/1.5 "Helvetica Neue" , Arial, Helvetica, sans-serif; /* 14px */
 	padding:0;
 	margin:0;
 }
@@ -24,7 +24,7 @@ h2 {
 	background:#000;
 	margin:0;
 	color:#fff;
-	font:143.75% halo, arial, sans-serif; /* 23 px */
+	font:164.285714% halo, arial, sans-serif; /* 23 px */
 	line-height:50px;
 }
 
@@ -32,7 +32,7 @@ h2 {
 	background:#000;
 	margin:5px 0;
 	color:#fff;
-	font:143.75% halo, arial, sans-serif;
+	font:164.285714% halo, arial, sans-serif; /* 23 px */
 	line-height:50px;
 	border:2px solid #333;
 	border-radius:10px;
@@ -107,7 +107,7 @@ a:link, a:visited {
 	padding-left:10px;
 	border-bottom:1px solid #31578a;
 	font-family:halo, sans-serif;
-	font-size:218.75%; /* 35px */
+	font-size:250%; /* 35px */
 	text-shadow:2px 2px 10px #ffcc00;
 }
 
@@ -125,8 +125,7 @@ section img {
 }
 
 section h2 {
-	font-family:halo, sans-serif;
-	font-size:143.75%; /* 23px */
+	font:164.285714% halo, arial, sans-serif; /* 23 px */
 	margin-top:20px;
 	padding-top:10px;
 }
@@ -222,7 +221,7 @@ aside img {
 	background:#000;
 	margin:0;
 	color:#fff;
-	font:143.75% halo, arial, sans-serif; /*23px */
+	font:164.285714% halo, arial, sans-serif; /* 23 px */
 	line-height:50px;
 }
 
@@ -232,7 +231,7 @@ aside img {
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 87.5%/100% Arial, Helvetica, sans-serif; /* 14px */
+	font: 100%/100% Arial, Helvetica, sans-serif; /* 14px*/
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 

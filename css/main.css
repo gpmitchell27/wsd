@@ -153,7 +153,7 @@ a:link, a:visited {
 
 section {
 	overflow:hidden;
-	background:#081220;
+	background:#081220 url('../images/content_bg.gif') repeat;
 	color:#fff;
 	padding:10px 0 20px 10px;
 }
@@ -189,7 +189,7 @@ section h2 {
 
 aside {
 	overflow:hidden;
-	background:#081220;
+	background:#081220 url('../images/content_bg.gif') repeat;
 	color:#fff;
 }
 
@@ -225,7 +225,7 @@ aside img {
 /* -------- Videos Styles -------------------------*/
 
 #videos {
-	background:#081220;
+	background:#081220 url('../images/content_bg.gif') repeat;
 	padding-bottom:5px;
 }
 
@@ -256,20 +256,10 @@ aside img {
 	padding:10px 0 0 10px;
 }
 
-hr.hr1 {
-      color: #333;
-      background-color: #333;
-      height: 2px;
-      width:98%;
-      opacity:.2;
-      -moz-opacity:.2;
-      -webkit-opacity:.2;
-    }
-
 /* -------- Links Styles -------------------------*/
 
 #links {
-	background:#081220;
+	background:#081220 url('../images/content_bg.gif') repeat;
 	padding-bottom:5px;
 	overflow:hidden;
 }
@@ -301,7 +291,7 @@ hr.hr1 {
 #join_now {
 	overflow:hidden;
 	width:100%; /*960px*/
-	background:#081220;
+	background:#081220 url('../images/content_bg.gif') repeat;
 	padding-bottom:30px;
 
 }
@@ -368,7 +358,7 @@ hr.hr1 {
 
 article {
 	overflow:hidden;
-	background:#081220;
+	background:#081220 url('../images/content_bg.gif') repeat;
 }
 
 article p {
@@ -416,7 +406,7 @@ footer p {
 	margin:0;
 	text-align:center; 
 	width:100%;
-	background:#000;
+	background:#081220;
 }
 
 footer ul {

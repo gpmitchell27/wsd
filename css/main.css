@@ -11,31 +11,41 @@ body {
 	font:100%/1.5 "Helvetica Neue" , Arial, Helvetica, sans-serif;
 	padding:0;
 	margin:0 auto;
+	background:#081220 url('../images/main_bg.gif') repeat;
+	background-attachment:fixed;
 }
 
 #content_wrapper {
 	width:100%;
-	margin:0 auto;
-	background-color:#081220;
-	padding:0 10px;
+	background-color:#000;
 	color:#fff;
 }
 
 p {
 	font-size:0.875em; /* 14px */
+	margin-left:1.0416667%; /*10px*/
 }
 
 h2 {
 	background:#000;
 	margin:0;
-	color:#fff;
+	color:#31578a;
 	font:1.4375em halo, arial, sans-serif; /* 23 px */
-	line-height:50px;
+	line-height:50px; 
+	padding-left:10px;
+}
+
+h3 {
+	color:#ccc;
+	padding:0;
+	margin:0;
+	text-align:right;
+	margin-right:20px;
 }
 
 .special {
 	background:#000;
-	margin:5px 0;
+	margin:5px 10px 5px 0px;
 	color:#fff;
 	font:1.4375em halo, arial, sans-serif; /* 23 px */
 	line-height:50px;
@@ -43,10 +53,22 @@ h2 {
 	border-radius:10px;
 	-mox-border-radius:10px;
 	-webkit-border-radius:10px;
+	padding:0 10px;
 }
 
-h1, h3, h4 {
-	margin:0;
+#master_chief {
+	width:52.083333% /*500px*/
+	float:left;
+}
+
+#master_chief img {
+	max-width:100%;
+}
+
+h5 {
+	font-weight:normal;
+	text-align:center;
+	color:#ffcc00;
 }
 
 @font-face {
@@ -61,13 +83,21 @@ a:link, a:visited {
 
 .standout {
 	color:#ffcc00;
-	float:left;
+	float:none;
+	text-align:center;
 }
 
 .page_anchor {
 	text-align:center;
 }
-
+.pclear {
+	clear:both;
+	color:#ffcc00;
+	margin:0 auto;
+	width:93.75%; /*900px*/
+	background:#333;
+	padding:10px;
+}
 /* Navigation Elements ------------------------------------------------*/
 
 
@@ -84,7 +114,7 @@ a:link, a:visited {
 
 #content_wrapper header nav li {
 	width:33.333333%; /*200px*/
-	float:right;
+	float:left;
 	text-align:center;
 }
 
@@ -116,13 +146,14 @@ a:link, a:visited {
 	font-family:halo, sans-serif;
 	font-size:2.1875em; /* 35px */
 	text-shadow:2px 2px 10px #ffcc00;
+	margin:0;
 }
 
 section {
 	overflow:hidden;
 	background:#081220;
 	color:#fff;
-	padding-left:10px;
+	padding:10px 0 20px 10px;
 }
 
 section img {
@@ -135,13 +166,16 @@ section h2 {
 	font:1.4375em halo, arial, sans-serif; /* 23 px */
 	margin-top:20px;
 	padding-top:10px;
+	color:#31578a;
 }
 
 #intro_paragraph {
-	margin:20px 10px;
+	margin:2.0833333%; /*20px*/ 1.0416667%;/*10px*/
 	-moz-column-count:3;
 	-webkit-column-count:3;
 	column-count:3;
+	width:41.666667%; /*400px*/
+	float:left;
 }
 
 #intro_paragraph a {
@@ -154,34 +188,31 @@ section h2 {
 aside {
 	overflow:hidden;
 	background:#081220;
-	background-position:bottom right;
 	color:#fff;
 }
 
 aside ul {
 	width:64.583333%; /*620px*/
 	list-style-type:none;
-	padding-left:10px;
-	margin:0;
+	margin:10px 0;
 	float:right;
-	height:20.833333%; /*200px*/
 }
 
 aside li {
 	width:19.354839%; /*120px */
-	height:13.709677%; /*85px*/
+	height:85px;
 	margin:10px 0 0 ;
 	float:left;
 }
 
 aside p  {
-	width:270px;
-	padding-left:10px;
+	width:28.125%; /*260px*/
 	float:left;
+	padding:10px;
 }
 
 aside img {
-	border:1px solid #fff;
+	border:3px solid #000;
 	box-shadow:2px 2px 2px #111;
 	opacity:0.9;
 	-moz-opacity:0.9;
@@ -193,35 +224,71 @@ aside img {
 
 #videos {
 	background:#081220;
+	padding-bottom:5px;
 }
 
 #videos ul {
 	list-style-type:none;
-	padding:0;
+	overflow:hidden;
 }
 
+#videos a {
+	text-decoration:none;
+}
+
+#videos li {
+	display:inline;
+	padding-left:20px;
+}
+
+#videos img {
+	border:3px solid #000;
+}
+
+#videos p {
+	width:47.916667%; /*460px*/
+	float:left;
+}
+
+#videos h3 {
+	padding-left:10px;
+}
 
 /* -------- Links Styles -------------------------*/
 
 #links {
 	background:#081220;
-	background-position:bottom right;
+	padding-bottom:5px;
+	overflow:hidden;
 }
 
 #links p {
 	margin:0;
+	width:58.333333%; /*560px*/
+	margin-left:10px;
+	padding:10px 0;
+	width:540px;
+	float:left;
 }
 
 #links ul {
 	list-style-type:none;
 	padding:0;
+	margin-left:10px;
+	clear:left;
+}
+
+#links img {
+	float:right;
 }
 
 /* -------- Newsletter Styles -------------------------*/
 
 #join_now {
 	overflow:hidden;
-	width:960px;
+	width:100%; /*960px*/
+	background:#081220;
+
 }
 
 #join_now h2 {
@@ -283,17 +350,18 @@ aside img {
 
 article {
 	overflow:hidden;
+	background:#081220;
 }
 
 article p {
-	width:500px;
+	width:52.083333%; /*500px*/
 	margin-left:10px;
 	color:#999;
 	font: 0.875em/1.5 Arial, Helvetica, sans-serif; /* 14px*/
 }
 
 article ul {
-	width:960px;
+	width:100%; /*960px*/
 	list-style-type:none;
 	padding:0;
 }
@@ -315,9 +383,7 @@ article li {
 /* -------- Footer Styles -------------------------*/
 
 footer {
-	height:50px;
 	line-height:50px;
-	text-align:center;
 	background:#000;
-	color:#fff;
+	color:#888;
 }

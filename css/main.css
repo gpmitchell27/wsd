@@ -401,7 +401,7 @@ footer {
 	background:#081220;
 	color:#888;
 	margin:0;
-	padding:0;
+	padding-bottom:1.0416667%; /*10px*/
 }
 
 footer p {
@@ -422,6 +422,6 @@ footer ul {
 footer li {
 	display:inline;
 	float:left;
-	padding-left:.52083333%; /*5px*/
+	padding:.1046667%; /*5px*/
 	margin:0;
 }

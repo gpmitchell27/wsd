@@ -67,8 +67,9 @@ h3 {
 
 h5 {
 	font-weight:normal;
-	text-align:center;
 	color:#ffcc00;
+	margin:0 0 0 52.083333%;
+	padding:0;
 }
 
 @font-face {
@@ -191,10 +192,11 @@ aside {
 	overflow:hidden;
 	background:#081220 url('../images/content_bg.gif') repeat;
 	color:#fff;
+	width:100%;
 }
 
 aside ul {
-	width:64.583333%; /*620px*/
+	width:62.5%; /*600px*/
 	list-style-type:none;
 	margin:1.0416667%/*10px*/ 0;
 	float:right;
@@ -209,8 +211,9 @@ aside li {
 
 aside p  {
 	width:28.125%; /*260px*/
-	float:left;
 	padding:1.0416667%; /*10px*/
+	margin:0 0 0 1.0416667%;/*10px*/
+	float:left;
 }
 
 aside img {
@@ -402,6 +405,7 @@ footer {
 	color:#888;
 	margin:0;
 	padding-bottom:1.0416667%; /*10px*/
+	width:100%;
 }
 
 footer p {
@@ -419,9 +423,70 @@ footer ul {
 	margin:0;
 	overflow:hidden;
 }
+
 footer li {
 	display:inline;
 	float:left;
 	padding:.1046667%; /*5px*/
 	margin:0;
+}
+
+footer img {
+	max-width:100%;
+}
+
+.flink1 {
+	width:31.25%;
+	float:left;
+	margin:0;
+	padding-left:1.4833333%;
+}
+
+
+/* = Media Queries
+======================================================== */
+/*Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and  (min-width:768px) and (max-width:959px) {
+	body {background:#081220;}
+	aside ul {float:left; margin:0 0 0 10px; width:75%;}
+	aside p {clear:both; width:100%;}
+	h5 {margin:0; clear:both; margin:0 0 0 25%;}
+	#videos {overflow:hidden;}
+	#videos p {clear:both; width:100%;}
+	#videos ul {float:left; margin:0; width:100%; padding:0;}
+	#videos h3 {text-align:left; padding:0; width:100%;margin: 0 0 0 1.00045%;}
+	#links img {display:none;}
+	p {margin-left:2.0833333%;}
+}
+
+/*Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and  (min-width:480px) and (max-width:767px) {
+	#intro_paragraph {margin:.0833333% /*20px*/.0416667%;/*10px*/float:left;width:100%;/*400px*/-moz-column-count:1;-webkit-column-count:1;column-count:1;}
+	.pclear {background:none; margin:0; padding:3.0% 0 0 0;}
+	#master_chief {float:left;}
+	aside {background:#081220;}
+	aside p {float:none; width:90%;}
+	aside ul {float:left; margin:0; padding:0; width:100%;}
+	aside li {padding:0 5.5%;}
+	h5 {margin:0; clear:both; margin:0 0 0 1%;}
+	section {background:#081220;}
+	#videos {background:#081220;}
+	#videos {overflow:hidden;}
+	#videos p {clear:both; width:100%;}
+	#videos ul {float:left; margin:0; width:100%; padding:0;}
+	#videos h3 {text-align:left; padding:0; width:100%;margin: 0 0 0 1.00045%;}
+	article {background:#081220;}
+	#links {background:#081220;}
+	#links p {width:100%;}
+	#links img {display:none;}
+	#join_now {background:#081220;}
+	#content_wrapper h1 {color:#fff;width:33.0%; /*360px*/background:#081220;line-height:50px;padding-left:2.77777778%; /*10px*/border-bottom:1px solid 		#31578a;font-family:halo, sans-serif;font-size:1.875em; /* 35px */text-shadow:2px 2px 10px #ffcc00;margin:1.5625%; /*15px*/ 0 0 0;}
+.special {background:#000;margin:.52083333% /*5px*/ 1.0416667% /*10px*/ .52083333% /*5px */ 0px;color:#fff;font:1.4375em halo, arial, sans-serif; /* 23 px */line-height:50px;padding:0 1.0416667%; /*10px*/	border:none;border-radius:0px;-mox-border-radius:0px;-webkit-border-radius:0px;}
+
+	
+}
+
+/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px) {
+	.pclear {background:#ff0000;}
 }

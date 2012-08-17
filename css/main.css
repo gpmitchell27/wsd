@@ -413,7 +413,6 @@ footer p {
 	margin:0;
 	text-align:center; 
 	width:100%;
-	background:#081220;
 }
 
 footer ul {
@@ -448,6 +447,8 @@ footer img {
 /*Tablet Portrait size to standard 960 (devices and browsers) */
 @media screen and  (min-width:768px) and (max-width:959px) {
 	body {background:#081220;}
+	#master_chief {float:left; margin:0 auto; width:52.083333%;}
+	#intro_paragraph {padding:0; margin:.0833333% /*20px*/2.0% .0416667%;/*10px*/float:left;width:40.8%;-moz-column-count:1;-webkit-column-count:1;column-count:1;}
 	aside ul {float:left; margin:0 0 0 10px; width:75%;}
 	aside p {clear:both; width:100%;}
 	h5 {margin:0; clear:both; margin:0 0 0 25%;}
@@ -460,13 +461,15 @@ footer img {
 	#join_now p {width:100%;}
 	#links img {display:none;}
 	p {margin-left:2.0833333%;}
+	.pclear {background:none;}
 }
 
 /*Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and  (min-width:480px) and (max-width:767px) {
 	#intro_paragraph {padding:0; margin:.0833333% /*20px*/2.0% .0416667%;/*10px*/float:left;width:96%;-moz-column-count:1;-webkit-column-count:1;column-count:1;}
-	.pclear {background:none; padding:1.5% 0 0 0; margin:.0833333% /*20px*/2.0% .0416667%;/*10px*/float:left;width:96%}
-	#master_chief {float:left; margin:0 auto; width:100%;}
+.special {background:#000;margin:.52083333% /*5px*/ 1.0416667% /*10px*/ .52083333% /*5px */ 0px;color:#fff;font:1.1275em halo, arial, sans-serif; line-height:26px;padding:0 1.0416667%; /*10px*/	border:none;border-radius:0px;-mox-border-radius:0px;-webkit-border-radius:0px; text-align:center;}
+	.pclear {background:none; padding:1.5% 0 0 0; margin:.0833333% /*20px*/2.0% .0416667%;/*10px*/float:left;width:96%;}
+	#master_chief {width:100%;max-width:none; margin:0 0 0 11%;}
 	aside {background:#081220;}
 	aside p {float:none; width:90%;}
 	aside ul {float:left; margin:0; padding:0; width:100%;}
@@ -511,11 +514,14 @@ footer img {
 	aside {background:#081220;}
 	article {display:none;}
 	#links {background:#081220;}
-	#links p {width:98%;}
+	#links p {width:98%; text-align:center;}
 	#join_now {background:#081220; text-align:center;}
 	#join_now p {padding:0 0 0 1.1%;}
+	#join_now h2 {font-size:1.2em; padding:0 0 0 1.255%;}
 	footer img {display:none;}
+	footer {background-color:#000;}
 	#links img {display:none;}
 	#links ul li  {text-align:center;}
 	#videos {overflow:hidden; background:#081220; text-align:center;}
+	
 }

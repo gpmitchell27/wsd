@@ -398,6 +398,55 @@ article img {
 	font: 0.875em/1.5 Arial, Helvetica, sans-serif; /* 14px*/
 }
 
+/* Table Elements ================= */
+
+
+#gradient-style {font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size:12px;
+	width:480px;
+	text-align:left;
+	border-collapse:collapse;
+	margin:20px;
+	float:left;
+	overflow:hidden;
+}
+
+#gradient-style th {
+	font-size:13px;
+	font-weight:normal;
+	background:#000;
+	border:1px solid #fff;
+	color:#fff;
+	padding:10px;
+}
+	
+#gradient-style td {
+	border-bottom:1px solid #333;
+	border-right:1px solid #333;
+	border-left:1px solid #333;
+	color:#000;
+	border-top:1px solid #333;
+	background:#fff; 
+	padding:8px;
+}
+
+#gradient-style tfoot tr td{
+	background:#fff;
+	font-size:12px;
+	color:#000;
+}
+
+#gradient-style tbody tr:hover td{
+	background:#333; 
+	border-top, border-right, border-bottom, border-left :1px solid #000;
+	color:#fff;
+}
+
+form {
+	float:left;
+	padding:12px;
+}
+
 /* -------- Footer Styles -------------------------*/
 
 footer {
@@ -523,5 +572,9 @@ footer img {
 	#links img {display:none;}
 	#links ul li  {text-align:center;}
 	#videos {overflow:hidden; background:#081220; text-align:center;}
+	form {margin:0 auto; width:90%;}
+	#gradient-style {display:none;}
+
+	
 	
 }
